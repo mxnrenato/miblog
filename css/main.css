@@ -100,7 +100,6 @@ nav .profile-link a{
     text-align: center;
     color: white;
 }
-
 .home-main-button {
     width: 100px;
     height: 50px;
@@ -108,8 +107,31 @@ nav .profile-link a{
     display: grid;
     align-items: center;
 }
-
 .home-main-button a {
     font-weight: 700;
     font-size: 18px;
+}
+.blogs-main {
+    display: grid;
+}
+.blogs-news-container{
+    background-color: #e6e9ed;
+    padding: 0 50px 40px;
+}
+.blogs-main-new{
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    grid-template-rows: 2fr;
+}
+.blogs-news-img-container {
+    grid-column: 1;
+}
+.blogs-news-img-container img{
+
+}
+.blogs-news-info-container {
+    grid-column: 2;
+}
+.blogs-news-info-container p{
+    margin-bottom: 35px;
 }
